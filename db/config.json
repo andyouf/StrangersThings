@@ -1,0 +1,18 @@
+{
+    "development": {
+        "user": "postgres",
+        "password": null,
+        "database": "juicebox-dev",
+        "host": "localhost",
+        "dialect": "postgres",
+        "operatorAliases" : false
+    },
+    "production": {
+        "user": "postgres",
+        "password": null,
+        "database": "juicebox-dev",
+        "dialect": "postgres",
+        "operatorAliases" : false,
+        "use_env_variable": "DATABASE_URL"
+    }
+}
