@@ -62,7 +62,6 @@ const App = () => {
     
     return (
         <Router>
-
             <div id="App">
                 <Header 
                     userList={ userList } 
